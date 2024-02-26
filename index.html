@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+</head>
+<body>
+    <span class="time"></span> <br>
+    <span class="position"></span>
+    
+    <script>
+        let nowDate = new Date();
+
+document.onclick=(abc)=>{
+  console.log(abc)
+  console.log(nowDate.getHours)
+  console.log("clientX =", abc.clientX, "clientY =", abc.clientY)
+
+  document.querySelector(".time").innerHTML= `Time = ${nowDate.getHours()}:${nowDate.getMinutes()}:${nowDate.getSeconds()}:${nowDate.getMilliseconds()}`
+  document.querySelector(".position").innerHTML = `position of mouse click at x = ${abc.clientX}, y = ${abc.clientY}`
+ 
+}
+    </script>
+</body>
+</html>
