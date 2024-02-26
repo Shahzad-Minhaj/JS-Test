@@ -2,6 +2,12 @@
 
 # Mouse Click Time and Position Tracker
 
+Powered By Saylani Mass IT, Peshawar  
+
+Feb, 26, 2024
+
+
+
 This HTML file contains a simple JavaScript program that tracks the time and position of mouse clicks on the document.
 
 ## Usage
